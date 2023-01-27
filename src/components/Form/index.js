@@ -17,7 +17,11 @@ export function Form(props) {
       jobRole,
       image,
       team,
-    })
+    });
+    setName("");
+    setJobRule("");
+    setImage("");
+    setTeam("");
   }
 
   return (
