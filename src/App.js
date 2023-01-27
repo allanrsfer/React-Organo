@@ -58,9 +58,9 @@ function App() {
           toNewContributorAdded(collaborator)
         }
       />
-      {teams.map((team) => (
+      {teams.map((team, index) => (
         <Team
-          key={team.name}
+          key={index}
           name={team.name}
           primaryColor={team.primaryColor}
           secondaryColor={team.secondaryColor}
